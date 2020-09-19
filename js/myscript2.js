@@ -15,3 +15,24 @@ document.getElementById('demoo').innerHTML = "Lorem Ipsum is simply dummy text o
 
 document.getElementById('demoo').style.color = "blue";
 document.querySelector('body').style.backgroundColor = "grey";
+
+
+function ndrysho(){
+  document.querySelector("#button").innerHTML= "changed"
+  document.querySelector("#button").style.backgroundColor = 'yellow'
+}
+
+document.querySelector("#button").addEventListener("dblclick",function(){
+this.innerHTML= "aaaaa"
+this.style.backgroundColor = 'green'
+
+})
+
+document.querySelector('button').addEventListener("dblclick",function(){
+document.querySelector('#button').style.backgroundColor = " lightgreen";
+
+
+
+
+
+})
