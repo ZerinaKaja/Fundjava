@@ -1,0 +1,9 @@
+.nav-link{
+  color:white
+}
+.nav-link:hover{
+  color:whitesmoke
+}
+.imazh{
+  width: -webkit-fill-available;
+}
